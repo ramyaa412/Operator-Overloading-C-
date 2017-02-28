@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{DE67B7F5-6128-40A2-8B44-F455DFE361B4}</ProjectGuid>
+    <ProjectGuid>{B9B46FDB-25BD-4E83-A856-EC28D587B9E4}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>homework7</RootNamespace>
+    <RootNamespace>h6</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -146,11 +146,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="polynomial.h" />
+    <ClInclude Include="Polynomial_Ramyaa.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="polynomial.cpp" />
+    <ClCompile Include="Polynomial_Ramyaa.cpp" />
+    <ClCompile Include="Main_Ramyaa.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
